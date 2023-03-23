@@ -1,0 +1,85 @@
+/* Write your CSS here */
+/* color 
+Hex: #ffffff
+Hex: #e4ebf3
+Hex: #eaebed
+Hex: #0b69ff
+Hex: #333333 
+font-family: "Roboto"*/
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-number-generate-container {
+  /* border: 2px solid red; */
+  padding: 10px;
+  text-align: center;
+  max-height: 700px;
+  max-width: 23%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.heading {
+  color: #0b69ff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.disc {
+  color: #333333;
+  font-weight: 500;
+  /* border: 2px solid green; */
+  padding: 10px;
+}
+.button {
+  margin: 5px;
+  padding: 5px;
+  height: 28px;
+  width: 88px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.random-number {
+  color: #0b69ff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-generate-container {
+    min-width: 30%;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .disc {
+    font-size: 25px;
+  }
+  .button {
+    height: 38px;
+    width: 108px;
+    font-size: 20px;
+  }
+  .random-number {
+    font-size: 34px;
+  }
+}
